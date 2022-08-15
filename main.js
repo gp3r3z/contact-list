@@ -86,7 +86,6 @@ function drawContacts() {
   contacts.forEach(contact => {
     template += `
 
-  <!-- TODO Remove these templates and draw them using JavaScript -->
   <div class="card mt-1 mb-1 ${contact.emergencycontact ? 'emergency-contact' : ''}">
     <h3 class="mt-1 mb-1">${contact.name}</h3>
     <div class="d-flex space-between">
