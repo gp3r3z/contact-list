@@ -2,7 +2,7 @@ let toggleOn = false;
 
 
 
-let contacts = [""]
+let contacts = []
 
 /**
  * Called when submitting the new Contact Form
